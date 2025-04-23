@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default async function Home() {
+export default async function Concert() {
   const data = await fetch(
     "https://fake-json-api.mock.beeceptor.com/companies"
   );
